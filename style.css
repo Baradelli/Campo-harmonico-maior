@@ -1,0 +1,83 @@
+/* dark.50
+dark:#18181b
+dark.100
+#27272a
+dark.200
+#3f3f46
+dark.300
+#52525b
+dark.400
+#71717a
+dark.500
+#a1a1aa
+dark.600
+#d4d4d8
+dark.700
+#e4e4e7
+dark.800
+#f4f4f5
+dark.900
+#fafafa */
+
+body {
+  all: unset;
+  background-color: #292524;
+
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.container h1 {
+  color: #e4e4e7;
+  font-weight: 700;
+}
+
+.container table {
+  border-spacing: 0 0.5rem;
+}
+
+.container table tbody tr {
+  border-spacing: 0 0.5rem;
+  background-color: #52525b;
+}
+
+.container table tbody tr:hover {
+  background-color: #a1a1aa;
+}
+
+.container table th {
+  color: #f4f4f5;
+  font-weight: 400;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.container table td {
+  padding: 0.5rem 2rem;
+  border: 0;
+  text-align: center;
+
+  color: #fafafa;
+}
+
+.container table td:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+  background-color: #3f3f46;
+}
+
+.container table td:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
